@@ -1,0 +1,66 @@
+===== Software release life ====================================================================================================================
+
+- Snapshot
+  데일리빌드버전
+- GA (General Availability)
+  정식 릴리즈 버전
+- M (Milestone)
+  정해진 주기마다 배포되는 버전
+- RC (Release Candidate)
+  Milestone보다 정리된 버전
+
+
+- 순서
+  SNAPSHOT -> M -> RC -> GA -> SNAPSHOT (Next Version)
+
+- 참고자료
+  https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B0%B0%ED%8F%AC_%EC%83%9D%EB%AA%85_%EC%A3%BC%EA%B8%B0
+
+
+
+===== SpringBoot Dependencies ==================================================================================================================
+
+* GraalVM Native Suport
+  성능향상을 위한 Native Image 개발 지원
+  
+* GraphQL DGS Code Generation
+  GraphQL 프레임워크
+  
+* Spring Boot DevTools
+  Spring Boot 개발자도구
+  
+* Spring Configuration Processor
+  외부설정(application.yml 또는 application.properties) 파일 지원
+  
+* Docker Compose Support
+  컨테이너 샐행 지원
+  
+* Spring Mudulith
+  Modular Monolithic Architecture 개발 지원
+  
+* Spring Web
+  웹어플리케이션 개발 지원
+  
+* Sprint Reactive Web
+  반응형 웹 어플리케이션 개발 지원
+  
+* Spring for GraphQL
+  GraphQL 개발 지원
+  
+* Rest Repositories
+  Repository를 정의하면 REST Service로 CRUD 기능 제공
+  
+* Spring Session
+  Session Clustering 지원
+  
+* Rest Repositories HAL Explorer
+  REST Repositories를 테스트용 지원툴
+  
+* Spring HATEOAS
+  동적 REST API 개발 지원
+  
+* Spring Web Services
+* Jersey
+* Vaadin
+* Netflix DGS
+* htmx
